@@ -24,6 +24,26 @@ header {
     transition: 2s;
 }
 
+h2 {
+    text-align: center;
+    text-decoration: wavy underline;
+    text-decoration-color: orange;
+}
+
+p {
+    text-align: center;
+}
+
+.link-text {
+    text-decoration: none;
+    color: orangered;
+}
+
+.alink-text {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     padding: 15px;
     text-align: center;
@@ -80,31 +100,21 @@ img {
     border-radius: 45px;
 }
 
-div {
-    background-color: black;
-    color: orange;
-    padding: 5px;
-    border: 1px ridge white;
-    text-align: center;
-    margin: 5px;
-    width: 500px;
-    height: 400px;
-}
-
 .social {
     border: 1px solid white;
     border-radius: 50%;
-    box-shadow: black 5px 5px;
-    margin-right: 10px;
+    box-shadow: black 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer img {
     border: 2px solid white ;
     border-radius: 50%;
-    box-shadow: black 2px 2px;
+    box-shadow: black 2px 2px 2px;
 }
 
 footer {
-    margin: 15px 0px 0px 0px;
-    padding: 15px;
+    margin-top: 30px;
+    display: block;
 }
